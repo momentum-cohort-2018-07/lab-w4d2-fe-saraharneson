@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 250px;
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #EEEEEE
+}
+
+#profileName {
+    display: block;
+    height: 100px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 12px 0; 
+    background-color: black;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 100;
+    font-size: 60px;
+    color: white;
+}
+
+#col1 {
+    vertical-align: top;
+    width: 30%;
+    height: 200px;
+    display: inline-block;
+    margin: 5px 15px 5px 30px;
+}
+
+#col2 {
+    vertical-align: top;
+    width: 30%;
+    height: 200px;
+    display: inline-block;
+    margin: 5px 12px;
+}
+
+#col3 {
+    vertical-align: top;
+    width: 25%;
+    height: 200px;
+    display: inline-block;
+    margin: 15px 10px 5px 15px;
+}
+
+.subhead {
+    margin-top: 10px;
+    font-family: 'Roboto Slab', sans-serif;font-weight: 400;
+    font-size: 23px;
+    color: black;
+}
+
+#profileBasics ul {
+    list-style: none;
+}
+
+#profileBasics {
+    font-family: 'Nunito Sans', serif;    font-weight: 300;
+    font-size: 18px;
+    color: black;
+}
+
+#profileStory {
+    font-family: 'Nunito Sans', serif;    font-weight: 300;
+    font-size: 18px;
+    color: black;
+}
+
+#profilePhoto {
+  width: 180px;
+  border-radius: 50%;
+}
+
+.contactCategory {
+  font-weight: 300;
+}
+
+.contactCategory span {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    color: cornflowerblue;
+    font-size: 1rem;
+}
+
+#col3 figure {
+    max-width: 25%;
+    border-radius: 50%;
+}
